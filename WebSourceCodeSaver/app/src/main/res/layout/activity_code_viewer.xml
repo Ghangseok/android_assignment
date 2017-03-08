@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isp1004.daniel.websourcecodesaver.CodeViewerActivity">
+
+    <TextView
+        android:id="@+id/txtCodeViewerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Source Code"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnGoHome"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/btnGoList"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="List"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ScrollView
+        android:id="@+id/scvSourceViewer"
+        android:layout_width="382dp"
+        android:layout_height="438dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
